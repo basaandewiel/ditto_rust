@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+set -o xtrace
+
+LIBDITTO_STATIC=0 cargo build --release 
+export LD_LIBRARY_PATH="/home/baswi/DocumentsLinux/ditto/dittorust/target/release/build/dittolive-ditto-sys-676a67a899016481/out"
+
+/home/baswi/DocumentsLinux/ditto/dittorust/target/release/rs
+
+
